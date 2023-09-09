@@ -1,5 +1,10 @@
 ## Golden Gates Hotel
 Our hotel website is designed to provide guests with a seamless and delightful experience from the moment they arrive. Whether you're a traveler seeking a cozy retreat or a business professional in need of a comfortable stay, our website has you covered.
+
+link to the deployed page
+```
+https://mwangelee.github.io/golden-gates-hotel/
+```
 ## Tools
 The website is developed using:
 1. HTML5
