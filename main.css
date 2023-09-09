@@ -17,7 +17,9 @@ html {
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
 }
-
+p{
+  font-size: 1.5rem;
+}
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
