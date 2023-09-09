@@ -1,1 +1,211 @@
+/*----responsive styling-----*/
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
 
+  .header {
+    padding: 2rem 3rem;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .review {
+    background: #fff;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 1rem 0;
+    display: block;
+    padding-top: 10%;
+  }
+
+  .review .review-slider {
+    background: #ffd700;
+    padding: 3rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+    color: #000;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 30rem;
+    background: #000;
+    border-radius: 0.5rem;
+  }
+
+  .header .navbar.active {
+    right: 2rem;
+    transition: 0.4s linear;
+  }
+
+  .header .navbar a {
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+    display: block;
+  }
+
+  .home .slide .content {
+    width: 50rem;
+  }
+
+  .review .review-slider {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 15%;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .review {
+    background: #fff;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 1rem 0;
+    display: block;
+    padding-top: 10%;
+  }
+
+  .review .review-slider {
+    background: #ffd700;
+    padding: 3rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+    color: #000;
+  }
+   #teams {
+    width: fit-content;
+  }
+
+  #teamMembers {
+    padding: 0;
+  }
+
+  #teamMembers .container {
+    height: 370px;
+    width: 370px;
+    padding-left: 20px;
+    left: 25%;
+  }
+
+  .icon {
+    left: -55%;
+  }
+
+  #teamMembers .container .icon .imgBx {
+    width: 70px;
+    height: 70px;
+    transform-origin: 220px;
+  }
+
+  #teamMembers .container .content::before {
+    inset: 40px;
+  }
+
+  #teamMembers .container .content::after {
+    inset: 50px;
+  }
+
+  .contentBx .card .imgBx {
+    width: 120px;
+    height: 120px;
+  }
+
+  .contentBx .card .textBx .sci li a {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .home .slide .content {
+    width: 30rem;
+  }
+
+  .home .slide .content h3 {
+    font-size: 3rem;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .review {
+    background: #fff;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 1rem 0;
+    display: block;
+    padding-top: 10%;
+  }
+
+  .review .review-slider {
+    background: #ffd700;
+    padding: 3rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+    color: #000;
+  }
+
+  #teams {
+    width: fit-content;
+  }
+
+  #teamMembers {
+    padding: 0;
+  }
+
+  #teamMembers .container {
+    height: 250px;
+    width: 250px;
+    padding-left: 20px;
+    left: 15%;
+  }
+
+  .icon {
+    left: -60%;
+  }
+
+  #teamMembers .container .icon .imgBx {
+    width: 50px;
+    height: 50px;
+    transform-origin: 148px;
+  }
+
+  #teamMembers .container .content::before {
+    inset: 30px;
+  }
+
+  #teamMembers .container .content::after {
+    inset: 40px;
+  }
+
+  .contentBx .card .imgBx {
+    width: 60px;
+    height: 60px;
+  }
+
+  .contentBx .card .textBx .sci li a {
+    width: 20px;
+    height: 20px;
+  }
+}
