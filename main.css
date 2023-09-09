@@ -1,1 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ffd700;
+  border-radius: 0.5rem;
+}
+
+section {
+  padding: 5rem 7%;
+}
+
+.heading {
+  font-size: 4rem;
+  color: #ffd700;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: #000;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ffd700;
+  color: #000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #ffd700;
+}
+
+.header .logo i {
+  color: #ffd700;
+  padding-right: 0.5rem;
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+  color: #ffd700;
+}
+
+.header .navbar .btn {
+  margin-top: 0;
+  color: #fff;
+}
+
+.header .navbar .btn:hover {
+  color: #fff;
+}
+
+#menu-btn {
+  display: none;
+  font-size: 2.5rem;
+  margin-left: 1.7rem;
+  cursor: pointer;
+  color: #ffd700;
+}
+
+#menu-btn:hover {
+  color: #000;
+}
+/* home */
+
+.home {
+  padding: 0;
+}
+
+.home .slide {
+  min-height: 100vh;
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.home .slide .content {
+  width: 80rem;
+  text-align: center;
+}
+
+.home .slide .content h3 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ffd700;
+  line-height: 1.1;
+  padding: 2rem 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #000;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem;
+  color: #ffd700;
+}
+
+/* end */
