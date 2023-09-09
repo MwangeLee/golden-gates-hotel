@@ -11,23 +11,15 @@
   .row {
     display: block;
   }
-
-  .review {
-    background: #fff;
-    width: 100%;
-    height: fit-content;
-    position: relative;
-    margin: 1rem 0;
-    display: block;
-    padding-top: 10%;
+  .col {
+    flex: 100%;
+    max-width: 80%;
   }
-
-  .review .review-slider {
-    background: #ffd700;
-    padding: 3rem;
-    margin-top: 4rem;
-    margin-right: 1rem;
-    color: #000;
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 200px;
   }
 }
 
@@ -60,34 +52,11 @@
     width: 50rem;
   }
 
-  .review .review-slider {
-    width: 100%;
-    padding: 1rem;
-    padding-top: 15%;
+  .col {
+    flex: 100%;
+    max-width: 100%;
   }
-
-  .row {
-    display: block;
-  }
-
-  .review {
-    background: #fff;
-    width: 100%;
-    height: fit-content;
-    position: relative;
-    margin: 1rem 0;
-    display: block;
-    padding-top: 10%;
-  }
-
-  .review .review-slider {
-    background: #ffd700;
-    padding: 3rem;
-    margin-top: 4rem;
-    margin-right: 1rem;
-    color: #000;
-  }
-   #teams {
+  #teams {
     width: fit-content;
   }
 
@@ -146,24 +115,6 @@
 
   .row {
     display: block;
-  }
-
-  .review {
-    background: #fff;
-    width: 100%;
-    height: fit-content;
-    position: relative;
-    margin: 1rem 0;
-    display: block;
-    padding-top: 10%;
-  }
-
-  .review .review-slider {
-    background: #ffd700;
-    padding: 3rem;
-    margin-top: 4rem;
-    margin-right: 1rem;
-    color: #000;
   }
 
   #teams {
