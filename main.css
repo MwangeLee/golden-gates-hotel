@@ -33,6 +33,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 0.5rem;
 }
 
+
 section {
   padding: 5rem 7%;
 }
@@ -177,8 +178,7 @@ section {
   gap: 1.5rem;
   background: #eee;
   padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 10px 10px 20px #000;
+  box-shadow: 0 3rem 6rem #1e1e33;
 }
 
 .availability form .box {
@@ -590,9 +590,7 @@ section {
 
 .room .slide {
   background: #dad8d5;
-  border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
-  box-shadow: 0 0 5px #212020;
   margin-bottom: 4rem;
   margin-top: 5rem;
 }
@@ -679,8 +677,7 @@ section {
 .reservation form {
   padding: 2rem;
   border: 0.2rem solid rgba(0, 0, 0, 0.1);
-  border-radius: 1.5rem;
-  box-shadow: 10px 10px 30px #000;
+  box-shadow: 0 3rem 6rem #1e1e33;
 }
 
 .reservation form .container {
@@ -729,10 +726,8 @@ section {
 .testimonials {
   width: 100%;
   padding: 40px 0;
-  background-image: url("images/bg3.jpg");
   background-size: cover;
   background-position: center;
-  animation: zoomEffect 5s alternate;
   color: #000;
   text-align: center;
 }
@@ -775,6 +770,7 @@ section {
 .testimonial {
   background: #f1f1f1;
   padding: 30px;
+  box-shadow: 0 3rem 6rem #1e1e33;
 }
 .testimonial img {
   width: 100px;
@@ -821,7 +817,7 @@ section {
   align-items: center;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0 0 19px 4px #0d4180;
+  box-shadow: 0 3rem 6rem #1e1e33;
 }
 .left {
   height: 100%;
